@@ -26,10 +26,10 @@ export default function Header() {
           {/* Logo */}
           <Link href="/" className="flex items-center">
             <Image
-              src="https://aniptech.com/images/logo.png"
+              src="/anip-tech-logo.png"
               alt="Anip Technologies"
-              width={56}
-              height={56}
+              width={64}
+              height={64}
               className="object-contain"
             />
           </Link>

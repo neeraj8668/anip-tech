@@ -3,12 +3,13 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   output: "standalone",
   images: {
-    remotePatterns: [
-      {
-        protocol: "https",
-        hostname: "aniptech.com",
-        pathname: "/images/logo.png",
-      },
+    domains: [
+      "aniptech.com",
+      "images.unsplash.com",
+      "seeklogo.com",
+      "randomuser.me",
+      "upload.wikimedia.org",
+      "svgrepo.com"
     ],
   },
   // eslint: {
